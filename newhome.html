@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aravind's Birthday Celebration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleshome.css" />
+</head>
+
+<body>
+    <!-- Intro Animation -->
+    <div class="intro-screen" id="intro">
+        <h1 id="intro-text" class="intro-text">EE SALA CUP NAMDE</h1>
+        <img id="logo1" src="rcblogoold.png" alt="RCB Logo 1" class="intro-logo hidden">
+        <img id="logo2" src="rcblogonew.png" alt="RCB Logo 2" class="intro-logo hidden">
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero hidden" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>🎉 Happy Birthday, <span class="gold-text">Aravind</span> 🎉</h1>
+            <p>Welcome to Aravind’s special birthday hub filled with memories, games & surprises 🎂</p>
+            <button class="enter-btn" id="enterBtn">Enter the Party 🎊</button>
+        </div>
+    </section>
+
+    <!-- Party Video -->
+    <!-- <video id="partyVideo" width="100%" style="display: none;" controls>
+        <source src="party.mp4" type="video/mp4">
+    </video> -->
+    <!-- <video id="partyVideo" class="hidden" controls preload="none"> -->
+    <video id="partyVideo" class="hidden" playsinline preload="none">
+        <source src="party.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
+
+
+
+    <!-- <video id="partyVideo" class="hidden" autoplay playsinline>
+        <source src="party.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video> -->
+    <!-- Final Page -->
+    <div id="finalPage" class="final-page hidden">
+        <div class="final-content">
+            <!-- <h1>🎉 Happy Birthday Aravind 🎉</h1> -->
+            <h1>🎉 Happy Birthday, <span class="gold-text">Aravind</span> 🎉</h1>
+            <!-- <p class="small">Wishing you endless happiness, success & love 💛</p> -->
+            <p>Wishing <span class="gold-text">you</span> endless happiness, success & love ❤️</p>
+            <p class="small">Made with ❤️ for Aravind by me</p>
+        </div>
+    </div>
+
+    <script src="scripthome.js"></script>
+</body>
+
+</html>
